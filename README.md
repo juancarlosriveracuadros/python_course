@@ -1,18 +1,70 @@
 # python_course
 
 ## class
+https://www.youtube.com/watch?v=mrhccLHtyN4&t=318s
 - **properte**
 - **Methods**
-
 python --> dir(<class>) > show methods
+
+In Python, a class can be **internal** or **external** depending on where and how it is defined and used. Here's the distinction:  
+
+### **1. Internal Class (Nested Class)**
+- A **nested class** (internal class) is a class defined **inside** another class.
+- It is typically used when the class is **logically dependent** on the outer class.
+- The inner class cannot be accessed directly from outside unless referenced through the outer class.
+
+#### **Example: Internal (Nested) Class**
+```python
+class Outer:
+    class Inner:
+        def display(self):
+            print("I am an inner class method.")
+
+# Accessing the inner class
+outer_instance = Outer()
+inner_instance = outer_instance.Inner()
+inner_instance.display()
+```
+
+### **2. External Class**
+- An **external class** is a regular class defined **outside** of other classes.
+- It is independent and can be imported and used in different modules.
+
+#### **Example: External Class**
+```python
+class External:
+    def display(self):
+        print("I am an external class method.")
+
+# Creating an instance
+ext_instance = External()
+ext_instance.display()
+```
+
+
+- **Class Methods, Static Methods, & Instance Methods**
+https://www.youtube.com/watch?v=PIKiHq1O9HQ
+
+
 
 ### operators
 you can use operators in your own classes: 
 https://docs.python.org/3/library/operator.html
 
-## Algorithms and Data Structzures
 
-prapere python kwouledge for interview
+### scope
+Scope in Python refers to the **region of code** where a variable or name is **accessible**. It determines where a variable can be **read or modified** and where it **ceases to exist**.
+
+#### **Types of Scope in Python**
+Python follows the **LEGB rule**, which stands for:
+1. **Local Scope** - Inside a function.
+2. **Enclosing Scope** - Nested function scope.
+3. **Global Scope** - Defined at the top level of a script or module.
+4. **Built-in Scope** - Predefined names in Python.
+\
+https://www.youtube.com/watch?v=QVdf0LgmICw
+
+## Algorithms and Data Structures
 
 - data types:
 https://www.w3schools.com/python/python_datatypes.asp
@@ -158,4 +210,7 @@ https://www.youtube.com/watch?v=rUUrmGKYwHw&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 
 #### Collections
 for represeting the data structure Stack and Queue it will be better to use the collections module with "deque"
+
 https://docs.python.org/3/library/collections.html
+
+https://www.youtube.com/watch?v=m3JgSV1Obn8
