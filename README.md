@@ -4,7 +4,8 @@
 https://www.youtube.com/watch?v=mrhccLHtyN4&t=318s
 - **properte**
 - **Methods**
-python --> dir(<class>) > show methods
+
+- dir(<object>) > show atributes or methods of an object
 
 In Python, a class can be **internal** or **external** depending on where and how it is defined and used. Here's the distinction:  
 
@@ -52,7 +53,7 @@ you can use operators in your own classes:
 https://docs.python.org/3/library/operator.html
 
 
-### scope
+## scope
 Scope in Python refers to the **region of code** where a variable or name is **accessible**. It determines where a variable can be **read or modified** and where it **ceases to exist**.
 
 #### **Types of Scope in Python**
@@ -63,6 +64,122 @@ Python follows the **LEGB rule**, which stands for:
 4. **Built-in Scope** - Predefined names in Python.
 \
 https://www.youtube.com/watch?v=QVdf0LgmICw
+https://www.youtube.com/watch?v=nKefMgHBNh0
+
+## **Notations**  
+In Python, **notation** refers to the symbols, conventions, and syntax used to represent different programming constructs. Here are some common types of notation used in Python:
+
+---
+
+### **1. Dot Notation (`.`)**
+- Used to access attributes and methods of objects.
+- Example:
+  ```python
+  class Dog:
+      def bark(self):
+          print("Woof!")
+
+  d = Dog()
+  d.bark()  # Calling the method using dot notation
+  ```
+
+---
+
+### **2. Bracket Notation (`[]`)**
+- Used for indexing and slicing lists, tuples, strings, and dictionaries.
+- Example:
+  ```python
+  my_list = [1, 2, 3]
+  print(my_list[0])  # Output: 1
+
+  my_dict = {'a': 10, 'b': 20}
+  print(my_dict['a'])  # Output: 10
+  ```
+
+---
+
+### **3. Colon Notation (`:`)**
+- Used in function definitions, loops, conditional statements, and slicing.
+- Example:
+  ```python
+  def greet(name: str) -> None:  # Type hinting with colons
+      print(f"Hello, {name}")
+
+  numbers = [1, 2, 3, 4, 5]
+  print(numbers[1:4])  # Slicing: Output -> [2, 3, 4]
+  ```
+
+---
+
+### **4. Underscore Notation (`_`)**
+- Used for private variables, ignoring values, and separating large numbers.
+- Example:
+  ```python
+  _private_var = "This is private"  # Private variable
+  first, _, last = (1, 2, 3)  # Ignoring the middle value
+  num = 1_000_000  # Readable large number
+  ```
+
+---
+
+### **5. Arrow Notation (`->`)**
+- Used in function type hinting.
+- Example:
+  ```python
+  def add(a: int, b: int) -> int:
+      return a + b
+  ```
+
+---
+
+### **6. Double Underscore (`__`) Notation**
+- Used for special methods (dunder/magic methods).
+- Example:
+  ```python
+  class Sample:
+      def __init__(self, value):
+          self.value = value
+
+  obj = Sample(10)
+  print(obj.__dict__)  # Accessing object attributes
+  ```
+
+---
+
+### **7. Star (`*` and `**`) Notation**
+- Used for unpacking and handling variable arguments.
+- Example:
+  ```python
+  def sum_numbers(*args):  # Accepts multiple arguments
+      return sum(args)
+
+  print(sum_numbers(1, 2, 3, 4))  # Output: 10
+
+  def print_details(**kwargs):  # Accepts keyword arguments
+      print(kwargs)
+
+  print_details(name="Alice", age=25)
+  ```
+
+---
+
+### **8. At (`@`) Notation**
+- Used for decorators.
+- Example:
+  ```python
+  def decorator(func):
+      def wrapper():
+          print("Before function call")
+          func()
+          print("After function call")
+      return wrapper
+
+  @decorator
+  def say_hello():
+      print("Hello!")
+
+  say_hello()
+  ```
 
 ## Algorithms and Data Structures
 
