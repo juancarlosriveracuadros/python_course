@@ -195,7 +195,7 @@ https://www.youtube.com/watch?v=IR_S8BC8KI0&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 **Table with comparation**
 https://www.bigocheatsheet.com/
 
-### Arrya:
+### Arry:
 https://www.youtube.com/watch?v=gDqQf4Ekr2A&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=3&t=0s
 
 for index » Big o = 0(1) or konstant time
