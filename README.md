@@ -4,6 +4,8 @@
 - **properte**
 - **Methods**
 
+python --> dir(<class>) > show methods
+
 ### operators
 you can use operators in your own classes: 
 https://docs.python.org/3/library/operator.html
@@ -18,8 +20,11 @@ https://www.w3schools.com/python/python_datatypes.asp
 - intro Algorithms:
 https://www.youtube.com/watch?v=_t2GVaQasRY&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=2
 
-- BIg o notation:
+- Big O notation:
 https://www.youtube.com/watch?v=IR_S8BC8KI0&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=3
+
+**Table with comparation**
+https://www.bigocheatsheet.com/
 
 ### Arrya:
 https://www.youtube.com/watch?v=gDqQf4Ekr2A&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=3&t=0s
@@ -51,7 +56,6 @@ https://www.youtube.com/watch?v=qp8u-frRAnU&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 ### Hash Table: 
 https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=5
 
----
 
 **1. Dictionary (`dict`) - When to Use as a Hash Table**
 ✅ **Use when:**
@@ -71,7 +75,6 @@ print(user_data["user_1"])  # O(1) lookup
 ```
 🔥 **Best for:** Caching, indexing, lookups, configuration settings.
 
----
 
 **2. List (`list`) - When to Use as an Array**
 ✅ **Use when:**
@@ -111,8 +114,6 @@ print(coordinates[0])  # O(1) access
 ```
 🔥 **Best for:** Read-only data, function return values, database records.
 
----
-
 **When to Choose Each as a Data Engineer?**
 | Use Case | Dictionary (`dict`) | List (`list`) | Tuple (`tuple`) |
 |----------|----------------|-------------|-------------|
@@ -125,7 +126,6 @@ print(coordinates[0])  # O(1) access
 | **Hashable (Can be Dictionary Key)** | ❌ No | ❌ No | ✅ Yes |
 | **Best Used For** | Lookups, Indexing | Storing Sequences | Fixed Data, Function Returns |
 
----
 
 **Real-World Scenarios in Data Engineering**
 1️⃣ **Processing Rows from a Database**
@@ -141,9 +141,21 @@ print(coordinates[0])  # O(1) access
 4️⃣ **Configuration Settings**
    - Use a **dictionary** (`dict`) to store **configurations**.
 
----
 
 **Conclusion**
 - **Use a dictionary (`dict`)** for **fast lookups, mapping key-value pairs**.
 - **Use a list (`list`)** for **ordered, mutable collections**.
 - **Use a tuple (`tuple`)** when **immutability and performance** matter.
+
+
+### Collections 
+
+#### Stack
+https://www.youtube.com/watch?v=zwb3GmNAtFk&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=7
+
+#### Queue
+https://www.youtube.com/watch?v=rUUrmGKYwHw&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=8
+
+#### Collections
+for represeting the data structure Stack and Queue it will be better to use the collections module with "deque"
+https://docs.python.org/3/library/collections.html
