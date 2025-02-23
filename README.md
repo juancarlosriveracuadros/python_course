@@ -1,10 +1,10 @@
 # python_course
 
 ## class
-**properte**
-**Methods**
+- **properte**
+- **Methods**
 
-## operators
+### operators
 you can use operators in your own classes: 
 https://docs.python.org/3/library/operator.html
 
