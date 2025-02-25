@@ -97,41 +97,6 @@ In the context of testing, "mocking" refers to the practice of creating mock obj
 - **Verify Interactions**: Ensure that your mocks are used as expected by verifying interactions, such as method calls and arguments.
 - **Keep Tests Readable**: Write clear and concise tests that are easy to understand, even with the use of mocks.
 
-# Testing for Data Engineering
-
-### 1. **Unit Testing**
-- **Frameworks**: Familiarize yourself with popular testing frameworks like `unittest` and `pytest`. These are essential for writing and running tests.
-- **Best Practices**: Learn to write clear, simple, and small tests. Aim for high test coverage and ensure each test verifies a single behavior[1](https://www.appacademy.io/blog/python-coding-best-practices).
-
-### 2. **Integration Testing**
-- **Data Pipelines**: Understand how to test data pipelines end-to-end. This includes testing data ingestion, processing, and storage.
-- **Tools**: Tools like `pytest` can be extended for integration tests. You might also encounter tools like `Great Expectations` for data quality checks[2](https://www.startdataengineering.com/post/python-for-de/).
-
-### 3. **Mocking and Stubbing**
-- **Libraries**: Learn to use libraries like `unittest.mock` to mock external dependencies and isolate the code under test.
-- **Use Cases**: Practice mocking databases, APIs, and other services your data pipeline interacts with.
-
-### 4. **Performance Testing**
-- **Load Testing**: Understand how to test the performance of your data pipelines under load. Tools like `locust` can be useful here.
-- **Optimization**: Be prepared to discuss how you would optimize data processing to handle large datasets efficiently.
-
-### 5. **Error Handling and Logging**
-- **Error Handling**: Ensure you know how to write tests that check for proper error handling and logging.
-- **Logging**: Familiarize yourself with Python's `logging` module to verify that your code logs important information correctly.
-
-### 6. **Data Quality Testing**
-- **Frameworks**: Tools like `Great Expectations` help define and run data quality checks to ensure your data meets certain criteria[2](https://www.startdataengineering.com/post/python-for-de/).
-- **Best Practices**: Learn to write tests that validate data integrity, consistency, and accuracy.
-
-### 7. **Common Interview Questions**
-- **Conceptual Questions**: Be ready to explain the difference between unit and integration tests, the importance of mocking, and how to handle flaky tests.
-- **Practical Questions**: You might be asked to write a test for a given piece of code or to debug a failing test[3](https://www.interviewquery.com/p/data-engineer-python-questions)[4](https://realpython.com/data-engineer-interview-questions-python/).
-
-### Resources
-- **Documentation**: Review the official documentation for `unittest` and `pytest`.
-- **Practice**: Work on sample projects and write tests for them. Platforms like GitHub have many open-source projects you can contribute to.
-
-
 # pytest tutorial
 
 https://www.youtube.com/watch?v=cHYq1MRoyI0&t=2750s
