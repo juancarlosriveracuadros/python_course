@@ -134,3 +134,11 @@ Preparing for a data engineering interview with a focus on Python testing is a g
 - **Practice**: Work on sample projects and write tests for them. Platforms like GitHub have many open-source projects you can contribute to.
 
 Good luck with your interview preparation! If you have any specific questions or need further assistance, feel free to ask. 😊
+
+# pytest tutorial
+
+https://www.youtube.com/watch?v=cHYq1MRoyI0&t=2750s
+
+
+- basic function test »  source/my_func.py tests/test_my_func.py
+- class test » source/shapes.py tests/test_circle.py
