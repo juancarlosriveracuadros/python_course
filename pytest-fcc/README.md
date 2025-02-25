@@ -1,4 +1,4 @@
-In data engineering, several types of testing are commonly used to ensure the reliability, accuracy, and performance of data pipelines and systems. Here are the most important ones:
+# Basic Testing Types:
 
 ### 1. **Unit Testing**
 - **Description**: Unit tests focus on individual components or functions of the code. They ensure that each part works as expected in isolation.
@@ -43,7 +43,8 @@ In data engineering, several types of testing are commonly used to ensure the re
 
 In the context of testing, "mocking" refers to the practice of creating mock objects to simulate the behavior of real objects in a controlled way. This is particularly useful in unit testing to isolate the code under test and ensure that tests are not dependent on external systems or resources. Here are some key points about mocking:
 
-### **What is Mocking?**
+# Mocking
+
 - **Definition**: Mocking involves creating objects that mimic the behavior of real objects. These mock objects can be programmed to return specific values or simulate certain behaviors.
 - **Purpose**: The main goal is to isolate the code being tested, allowing you to focus on its functionality without interference from external dependencies.
 
@@ -96,10 +97,7 @@ In the context of testing, "mocking" refers to the practice of creating mock obj
 - **Verify Interactions**: Ensure that your mocks are used as expected by verifying interactions, such as method calls and arguments.
 - **Keep Tests Readable**: Write clear and concise tests that are easy to understand, even with the use of mocks.
 
-Mocking is a powerful technique that can greatly enhance the effectiveness of your tests. If you have any specific scenarios or further questions about mocking, feel free to ask! 😊
-
-
-Preparing for a data engineering interview with a focus on Python testing is a great idea! Here are some key areas you should focus on:
+# Testing for Data Engineering
 
 ### 1. **Unit Testing**
 - **Frameworks**: Familiarize yourself with popular testing frameworks like `unittest` and `pytest`. These are essential for writing and running tests.
@@ -133,7 +131,6 @@ Preparing for a data engineering interview with a focus on Python testing is a g
 - **Documentation**: Review the official documentation for `unittest` and `pytest`.
 - **Practice**: Work on sample projects and write tests for them. Platforms like GitHub have many open-source projects you can contribute to.
 
-Good luck with your interview preparation! If you have any specific questions or need further assistance, feel free to ask. 😊
 
 # pytest tutorial
 
