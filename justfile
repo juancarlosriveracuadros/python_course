@@ -26,10 +26,14 @@ test_my_func:
 test_circle:
     pytest pytest-fcc/tests/test_circle.py
 
-# test dinamic with pytest 
-test_din param:
+# test pytest with parameter  
+test_param param:
     pytest pytest-fcc/tests/{{param}}
 
-# test dinamic with pytest allows you to see standard output (like print statements) 
+# test with pytest allows you to see standard output (like print statements) 
 test_s param:
     pytest --capture=no pytest-fcc/tests/{{param}}
+
+# test mark test example "slow" 
+test_mark param:
+    pytest -m {{param}} pytest-fcc/tests

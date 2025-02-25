@@ -104,3 +104,6 @@ https://www.youtube.com/watch?v=cHYq1MRoyI0&t=2750s
 
 - basic function test »  source/my_func.py tests/test_my_func.py
 - class test » source/shapes.py tests/test_circle.py
+- fixtures » test/conftest.py test/test_rectangle.py
+- Parametrize and Mark  » shapes test_rectangle.py and test_square.py
+- Mocking
