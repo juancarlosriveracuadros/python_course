@@ -331,3 +331,25 @@ for represeting the data structure Stack and Queue it will be better to use the 
 https://docs.python.org/3/library/collections.html
 
 https://www.youtube.com/watch?v=m3JgSV1Obn8
+
+
+### Set 
+
+- set is a collection of unique elements.
+- if no change possible than frozent set is used
+
+https://www.youtube.com/watch?v=RD6JionMlXM
+
+#### **Key Takeaways**
+- **Implemented as a hash table** for fast lookups.
+- **No duplicate values** allowed.
+- **Unordered**, meaning element order is not preserved.
+- **Fast operations (`O(1)`)** for add, remove, and check.
+
+#### **Performance Complexity**
+| Operation  | Time Complexity | Explanation |
+|------------|---------------|-------------|
+| Insert     | **O(1)** (average) | Uses hashing to find a slot. |
+| Delete     | **O(1)** (average) | Removes an element using its hash value. |
+| Search     | **O(1)** (average) | Direct lookup using hashing. |
+| Iteration  | **O(n)** | Must scan all elements. |
